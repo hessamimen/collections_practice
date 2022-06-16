@@ -21,6 +21,11 @@ def swap_elements(array)
     array[1], array[2] = array[2], array[1]
     array
 end
+#Question 4(advance)
+# def swap_elements(array, indx1, indx2)
+#     array[indx1], array[indx2] = array[indx2], array[indx1]
+#     array
+# end
 
 #Question 5
 def reverse_array(array)
@@ -59,4 +64,15 @@ def add_s(array)
         end 
     end
 end 
+
+
+# def add_s(array)
+#     array.collect do |word|
+#       if array[1] == word
+#         word
+#       else
+#         word + "s"
+#       end
+#     end
+#   end
 
